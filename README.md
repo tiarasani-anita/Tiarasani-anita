@@ -224,6 +224,18 @@ Email: anitatiara25@gmail.com
 
 ---
 
+## 🐍 Contribution Snake — 3D Bergerak
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tiarasani-anita/tiarasani-anita/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tiarasani-anita/tiarasani-anita/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/tiarasani-anita/tiarasani-anita/output/github-contribution-grid-snake.svg" />
+</picture>
+
+> 🐍 Ular ini otomatis makan kontribusi kamu setiap hari — auto-update via GitHub Actions.
+
+---
+
 ## 🎨 Banner 3D Bergerak
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient:00f0ff,ff2ec4&height=120&section=footer&text=Anita%20Tiara%20Sani&fontSize=28&fontColor=ffffff&animation=fadeIn&desc=Mahasiswa%20Teknik%20Informatika%20•%20Web%20Dev%20•%20Data%20Analytics%20•%20Web3&descSize=14&descAlignY=75" alt="Footer Banner" width="100%" />
