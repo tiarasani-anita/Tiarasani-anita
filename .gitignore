@@ -1,0 +1,243 @@
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+
+# Environment files
+.env*
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Package manager logs
+.npmrc
+yarn.lock
+pnpm-lock.yaml
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+
+# Distribution folders
+dist/
+build/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Nuxt.js build output
+.nuxt/
+
+# Next.js build output
+.next/
+
+# Vite build output
+/dist
+
+# Storybook output
+.out/
+
+# Temporary directories
+/temp/
+
+tmp/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids
+*.pid
+
+# Directory for instrumented libs to store their source maps
+lib-maps/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+
+# Directory for instrumented libs to store their source maps
+libmaps
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (http://gruntjs.com/creating-tasks#configuring-tasks)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components/
+
+# npm package directory
+node_modules/
+
+# Dockerfile
+Dockerfile
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Public assets (optional, depends on project)
+public/
+
+# Configuration files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.bak
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js
+.npmrc
+
+# Build outputs
+.next
+
+# Logs
+logs
+*.log
+
+# Coverage
+coverage
+.nyc_output
+
+# Distribution
+build
+dist
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript output
+tsc_output/
+
+# Package dist
+tmp/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# next.js build output
+.next
+
+# monorepo
+packages/*/node_modules
+
+# gitbook
+_book
+
+# Examples
+examples/
+
+# Debug
+npm-debug.log*
+
+# Local env files
+.env.local
+.env.development
+
+# Distribution
+dist/
+build/
+
+# Dependency directories
+node_modules/
+
+# Lock files
+yarn.lock
+package-lock.json
+
+# Temporary files
+*.tmp
+*.temp
+*.backup
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js
+shell-history/
+
+# Build outputs
+dist/
+build/
+.out/
+
+# Package managers
+.yarn/
+.npm/
+
+# Environments
+.env*
+
+# Cache
+.cache
+
+# Secrets
+secrets
+
+# Terraform
+.terraform
+*.tfstate
+*.tfstate.backup
+
+# .gitignore yang bersih dan profesional
