@@ -19,11 +19,10 @@ jobs:
         uses: lowlighter/metrics@v3.32
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          github_user_name: tiarasani-anita
+          user: tiarasani-anita
           plugin_languages: yes
-          plugin_languages_skip_detection: yes
           plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repo: 7.5
+          plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_details: lines, bytes-size, percentage
