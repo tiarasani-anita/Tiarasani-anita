@@ -142,12 +142,12 @@
     </linearGradient>
 
     <linearGradient id="cardBg1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1E293B" />
-      <stop offset="100%" stop-color="#0F172A" />
+      <stop offset="0%" stop-color="#1A1A1A" />
+      <stop offset="100%" stop-color="#0D0D0D" />
     </linearGradient>
     <linearGradient id="cardBg2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1a1040" />
-      <stop offset="100%" stop-color="#0F172A" />
+      <stop offset="0%" stop-color="#1A1A1A" />
+      <stop offset="100%" stop-color="#000000" />
     </linearGradient>
 
     <clipPath id="neofetchClip">
@@ -189,7 +189,7 @@
     </clipPath>
   </defs>
 
-  <rect width="1180" height="610" rx="24" fill="#0F172A" />
+  <rect width="1180" height="610" rx="24" fill="#000000" />
 
   <g fill="#A78BFA" opacity="0.4">
     <circle cx="100" cy="200" r="1">
@@ -220,7 +220,7 @@
   <g>
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" />
     
-    <rect x="40" y="40" width="360" height="530" rx="16" fill="#1E293B" fill-opacity="0.9" stroke="url(#borderShimmer)" stroke-width="1.5" />
+    <rect x="40" y="40" width="360" height="530" rx="16" fill="#0D0D0D" fill-opacity="0.95" stroke="url(#borderShimmer)" stroke-width="1.5" />
     <rect x="40" y="40" width="360" height="530" rx="16" fill="url(#glassSheen)" pointer-events="none" />
 
     <circle cx="65" cy="58" r="6" fill="#EF4444" />
@@ -332,7 +332,7 @@
   <g>
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" />
     
-    <rect x="440" y="40" width="700" height="530" rx="16" fill="#1E293B" fill-opacity="0.9" stroke="url(#borderShimmer)" stroke-width="1.5" />
+    <rect x="440" y="40" width="700" height="530" rx="16" fill="#0D0D0D" fill-opacity="0.95" stroke="url(#borderShimmer)" stroke-width="1.5" />
     <rect x="440" y="40" width="700" height="530" rx="16" fill="url(#glassSheen)" pointer-events="none" />
 
     <circle cx="465" cy="58" r="6" fill="#EF4444" />
