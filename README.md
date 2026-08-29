@@ -13,13 +13,13 @@
 
 ## 🚀 About Me
 
-I'm **Anita Tiara Sani**, a Teknik Informatika student and Full-Stack Developer who builds impactful, high-performance applications with a focus on immersive and interactive experiences using modern web technologies.
+I'm **Anita Tiara Sani**, a Informatics Engineering student and Full-Stack Developer who builds impactful, high-performance applications with a focus on immersive and interactive experiences using modern web technologies.
 
 I work with **React, Next.js, TailwindCSS, and Firebase**, combining creative frontend development with strong backend functionality to build scalable full-stack solutions. I'm also passionate about **AI and data analytics**, building intelligent workflows and dashboards, and I have experience in **Web3, Blockchain, and Cyber Security**.
 
-> 💡 *"Setiap hari adalah kesempatan untuk belajar dan membangun sesuatu yang bermanfaat."*
+>  *"Setiap hari adalah kesempatan untuk belajar dan membangun sesuatu yang bermanfaat."*
 
-- 🎓 **Education:** S1 Teknik Informatika (2024 - Present), Indonesia.
+- 🎓 **Education:** S1 Informatics Engineering (2024 - Present).
 - 💬 **Ask me about:** Frontend development, Software engineer, or Full-stack developer.
 - ✉️ **Contact:** [anitatiara25@gmail.com](mailto:anitatiara25@gmail.com)
 - 🌐 **Portfolio:** [tiarasani-anita.github.io/portfolio-anita](https://tiarasani-anita.github.io/portfolio-anita/)
