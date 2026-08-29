@@ -344,7 +344,7 @@
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.5s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.4s" begin="0.5s" fill="freeze" />
-      <text x="490" y="115" fill="#94A3B8" font-size="15" class="font-mono" xml:space="preserve">const greeting = <tspan fill="#A78BFA">"Hai"</tspan>;</text>
+      <text x="490" y="115" fill="#94A3B8" font-size="15" class="font-mono" xml:space="preserve">const greeting = <tspan fill="#A78BFA">"Hayy"</tspan>;</text>
     </g>
 
     <g opacity="0">
@@ -357,19 +357,19 @@
       <text x="490" y="200" fill="#94A3B8" font-size="18" class="font-mono">$&gt; </text>
 
       <g class="font-mono" font-size="18" font-weight="bold">
-        <text x="522" y="200" fill="#A78BFA" clip-path="url(#clipPhrase1)">Informatika Student
+        <text x="522" y="200" fill="#A78BFA" clip-path="url(#clipPhrase1)">Software Engineer
           <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.1867;0.2;1" dur="15s" repeatCount="indefinite" />
         </text>
-        <text x="522" y="200" fill="#8B5CF6" clip-path="url(#clipPhrase2)" opacity="0">Web Developer
+        <text x="522" y="200" fill="#8B5CF6" clip-path="url(#clipPhrase2)" opacity="0">Cyber Security
           <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2;0.2001;0.3867;0.4;1" dur="15s" repeatCount="indefinite" />
         </text>
-        <text x="522" y="200" fill="#C4B5FD" clip-path="url(#clipPhrase3)" opacity="0">Open Source Enthusiast
+        <text x="522" y="200" fill="#C4B5FD" clip-path="url(#clipPhrase3)" opacity="0">Web Development
           <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4;0.4001;0.5867;0.6;1" dur="15s" repeatCount="indefinite" />
         </text>
-        <text x="522" y="200" fill="#A78BFA" clip-path="url(#clipPhrase4)" opacity="0">Tech Learner
+        <text x="522" y="200" fill="#A78BFA" clip-path="url(#clipPhrase4)" opacity="0">Ai Enthusiast
           <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6;0.6001;0.7867;0.8;1" dur="15s" repeatCount="indefinite" />
         </text>
-        <text x="522" y="200" fill="#8B5CF6" clip-path="url(#clipPhrase5)" opacity="0">Future Engineer
+        <text x="522" y="200" fill="#8B5CF6" clip-path="url(#clipPhrase5)" opacity="0">Machine Learning
           <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8;0.8001;0.9867;0.99;1" dur="15s" repeatCount="indefinite" />
         </text>
       </g>
@@ -400,7 +400,7 @@
       <svg viewBox="0 0 24 24" x="490" y="277" width="16" height="16">
         <path stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M22 10v6M2 10l10-5 10 5-10 5z M6 12v5c0 2 3 3 6 3s6-1 6-3v-5"/>
       </svg>
-      <text x="518" y="290" fill="#94A3B8" font-size="14" class="font-sans">Education: <tspan fill="#F8FAFC" font-weight="500">S1 Informatika</tspan></text>
+      <text x="518" y="290" fill="#94A3B8" font-size="14" class="font-sans">Education: <tspan fill="#F8FAFC" font-weight="500">Informatics Engineering</tspan></text>
     </g>
 
     <g opacity="0">
@@ -409,7 +409,7 @@
       <svg viewBox="0 0 24 24" x="490" y="307" width="16" height="16">
         <path stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M4 17l6-5-6-5M12 19h8"/>
       </svg>
-      <text x="518" y="320" fill="#94A3B8" font-size="14" class="font-sans">Focus: <tspan fill="#F8FAFC" font-weight="500">Web Development &amp; Programming</tspan></text>
+      <text x="518" y="320" fill="#94A3B8" font-size="14" class="font-sans">Focus: <tspan fill="#F8FAFC" font-weight="500">Ai engineer &amp; Programming</tspan></text>
     </g>
 
     <g opacity="0">
