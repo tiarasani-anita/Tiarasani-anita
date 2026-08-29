@@ -71,7 +71,7 @@ Status: Currently Building
 >
 > **Core Belief:** Percaya belajar tidak pernah berhenti. Setiap hari = kesempatan bikin solusi teknologi yang bermanfaat.
 >
-> **Beyond Code:** Aktif **investasi emas & saham** (termasuk saham luar negeri), trading, **crypto, blockchain, Web3, Web4** — masa depan keuangan digital.
+> **Beyond Code:** Aktif **investasi emas & saham** (termasuk saham luar negeri), trading, **crypto, blockchain, Web3, Web4,** masa depan keuangan digital.
 
 ---
 
