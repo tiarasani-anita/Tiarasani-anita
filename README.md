@@ -58,16 +58,16 @@
 
 ```yaml
 Identity: Anita Tiara Sani
-Age: 22 Tahun
+Age: 23 Tahun
 Role: Mahasiswa Teknik Informatika
 Location: Indonesia
 Contact: anitatiara25@gmail.com
 Status: Currently Building
 ```
 
-> **Background:** Sejak **SD** sudah tertarik teknologi — dari penasaran cara komputer bekerja sampai bikin program sederhana.
+> **Background:** Sejak **SD** sudah tertarik teknologi, dari penasaran cara komputer bekerja sampai bikin program sederhana.
 >
-> **Current Phase:** Di **22 tahun**, jadi mahasiswa **Teknik Informatika (2024)** & terus mengasah skill di **Front End, App Dev, Software Engineering, Cyber Security**, ditambah **Data Analytics, Finance & Keuangan Digital**.
+> **Current Phase:** Di **21 tahun**, jadi mahasiswa **Teknik Informatika** & terus mengasah skill di **Front End, App Dev, Software Engineering, Cyber Security**, ditambah **Data Analytics, Finance & Keuangan Digital**.
 >
 > **Core Belief:** Percaya belajar tidak pernah berhenti. Setiap hari = kesempatan bikin solusi teknologi yang bermanfaat.
 >
