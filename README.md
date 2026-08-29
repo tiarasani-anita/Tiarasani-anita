@@ -1,4 +1,4 @@
-# Hi there, I'm Anita Tiara Sani! 👋
+# Hayy Saya Anita👋
 
 <!-- Theme-Sensitive Header Banner -->
 <p align="center">
@@ -20,7 +20,7 @@ I work with **React, Next.js, TailwindCSS, and Firebase**, combining creative fr
 > 💡 *"Setiap hari adalah kesempatan untuk belajar dan membangun sesuatu yang bermanfaat."*
 
 - 🎓 **Education:** S1 Teknik Informatika (2024 - Present), Indonesia.
-- 💬 **Ask me about:** Frontend development, data analytics, or full-stack architectures.
+- 💬 **Ask me about:** Frontend development, Software engineer, or Full-stack developer.
 - ✉️ **Contact:** [anitatiara25@gmail.com](mailto:anitatiara25@gmail.com)
 - 🌐 **Portfolio:** [tiarasani-anita.github.io/portfolio-anita](https://tiarasani-anita.github.io/portfolio-anita/)
 
