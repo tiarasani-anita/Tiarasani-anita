@@ -340,7 +340,7 @@
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.5s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.4s" begin="0.5s" fill="freeze" />
-      <text x="490" y="115" fill="#94A3B8" font-size="15" class="font-mono" xml:space="preserve">const greeting = <tspan fill="#8B5CF6">"Hi 👋"</tspan>;</text>
+      <text x="490" y="115" fill="#94A3B8" font-size="15" class="font-mono" xml:space="preserve">const greeting = <tspan fill="#8B5CF6">"Hai"</tspan>;</text>
     </g>
 
     <g opacity="0">
