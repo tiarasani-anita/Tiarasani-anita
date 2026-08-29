@@ -3,9 +3,9 @@
 <!-- Theme-Sensitive Header Banner -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient:10B981,0D9488,34D399&height=200&section=header&text=Anita%20Tiara%20Sani&fontSize=48&fontColor=FFFFFF&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Cyber%20Security%20%7C%20Web3%20Explorer&descSize=18&descAlignY=72">
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient:10B981,0D9488,34D399&height=200&section=header&text=Anita%20Tiara%20Sani&fontSize=48&fontColor=FFFFFF&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Cyber%20Security%20%7C%20Web3%20Explorer&descSize=18&descAlignY=72">
-    <img alt="Anita Tiara Sani Hero Banner" src="https://capsule-render.vercel.app/api?type=waving&color=gradient:10B981,0D9488,34D399&height=200&section=header&text=Anita%20Tiara%20Sani&fontSize=48&fontColor=FFFFFF&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Cyber%20Security%20%7C%20Web3%20Explorer&descSize=18&descAlignY=72" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="readmefile/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="readmefile/light.svg">
+    <img alt="Anita Tiara Sani Hero Banner" src="readmefile/dark.svg" width="100%" />
   </picture>
 </p>
 
