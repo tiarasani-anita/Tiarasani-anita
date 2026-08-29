@@ -1,4 +1,4 @@
-# Anita Tiara Sani
+# Hayy, saya Anita
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=32&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Mahasiswa+Teknik+Informatika;Front+End+Engineer+%7C+App+Developer;Cyber+Security+%7C+Data+Analytics;Web3+%7C+Blockchain+%7C+AI+Explorer;Full-Stack+Learner+%7C+Tech+Innovator" alt="Typing SVG" />
@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/Tiarasani-anita"><img src="https://img.shields.io/badge/GitHub-Tiarasani--anita-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://linkedin.com/in/anitatiara25"><img src="https://img.shields.io/badge/LinkedIn-anitatiara25-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/anitatiara25"><img src="https://img.shields.io/badge/LinkedIn-anitatiarasani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://tiarasani-anita.github.io/portfolio-anita/"><img src="https://img.shields.io/badge/Portfolio-Website-00f0ff?style=for-the-badge&logo=firefox&logoColor=black" alt="Portfolio" /></a>
   <a href="mailto:anitatiara25@gmail.com"><img src="https://img.shields.io/badge/Email-anitatiara25@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
@@ -58,8 +58,8 @@
 
 ```yaml
 Identity: Anita Tiara Sani
-Age: 22 Years Old
-Role: Mahasiswa Teknik Informatika (2024 - Present)
+Age: 22 Tahun
+Role: Mahasiswa Teknik Informatika
 Location: Indonesia
 Contact: anitatiara25@gmail.com
 Status: Currently Building
