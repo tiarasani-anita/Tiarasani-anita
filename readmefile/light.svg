@@ -423,13 +423,13 @@
       <svg viewBox="0 0 24 24" x="490" y="367" width="16" height="16">
         <path stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 4l8 5 8-5"/>
       </svg>
-      <text x="518" y="380" fill="#94A3B8" font-size="14" class="font-sans">Email: <tspan fill="#C4B5FD" font-weight="500">anita.tiara@email.com</tspan></text>
+      <text x="518" y="380" fill="#94A3B8" font-size="14" class="font-sans">Email: <tspan fill="#C4B5FD" font-weight="500">Anitatiara25@gmail.com</tspan></text>
     </g>
 
     <!-- MODERN 3D NEON SKILLS SECTION -->
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="3.2s" fill="freeze" />
-      <text x="490" y="420" fill="#8B5CF6" font-size="14" font-weight="700" class="font-sans">Technical Skills</text>
+      <text x="490" y="420" fill="#FFFFFF" font-size="14" font-weight="700" class="font-sans">Skills &amp; Technologies</text>
     </g>
 
     <!-- 3D Neon Skill Cards Row 1 -->
