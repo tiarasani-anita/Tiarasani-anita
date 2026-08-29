@@ -24,7 +24,7 @@
       }
       .skill-pill:hover {
         transform: scale(1.08);
-        filter: drop-shadow(0 0 10px var(--hover-glow, rgba(13, 148, 136, 0.5)));
+        filter: drop-shadow(0 0 10px var(--hover-glow, rgba(139, 92, 246, 0.5)));
       }
       
       .social-icon {
@@ -36,22 +36,22 @@
       }
       .social-icon:hover {
         transform: scale(1.2);
-        filter: drop-shadow(0 0 8px rgba(13, 148, 136, 0.8));
+        filter: drop-shadow(0 0 8px rgba(139, 92, 246, 0.8));
         opacity: 1;
       }
     </style>
 
-    <radialGradient id="glowTeal" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#0D9488" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#0D9488" stop-opacity="0" />
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="glowEmerald" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    <radialGradient id="glowLightPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="glowMint" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#34D399" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#34D399" stop-opacity="0" />
+    <radialGradient id="glowLighterPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C4B5FD" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#C4B5FD" stop-opacity="0" />
     </radialGradient>
 
     <filter id="noise">
@@ -60,16 +60,16 @@
     </filter>
 
     <linearGradient id="scanline" x1="0" y1="0" x2="0" y2="100%">
-      <stop offset="0%" stop-color="#0D9488" stop-opacity="0" />
-      <stop offset="50%" stop-color="#0D9488" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#0D9488" stop-opacity="0" />
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0" />
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
     </linearGradient>
 
     <linearGradient id="borderShimmer" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="rgba(0, 0, 0, 0.06)" />
       <stop offset="45%" stop-color="rgba(0, 0, 0, 0.06)" />
-      <stop offset="50%" stop-color="#0D9488" />
-      <stop offset="55%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="55%" stop-color="#A78BFA" />
       <stop offset="60%" stop-color="rgba(0, 0, 0, 0.06)" />
       <stop offset="100%" stop-color="rgba(0, 0, 0, 0.06)" />
       <animate attributeName="x1" values="-100%; 100%" dur="8s" repeatCount="indefinite" />
@@ -87,26 +87,26 @@
     </linearGradient>
 
     <linearGradient id="asciiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0D9488">
-        <animate attributeName="stop-color" values="#0D9488;#10B981;#34D399;#0D9488" dur="10s" repeatCount="indefinite" />
+      <stop offset="0%" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#A78BFA;#C4B5FD;#8B5CF6" dur="10s" repeatCount="indefinite" />
       </stop>
-      <stop offset="50%" stop-color="#10B981">
-        <animate attributeName="stop-color" values="#10B981;#34D399;#0D9488;#10B981" dur="10s" repeatCount="indefinite" />
+      <stop offset="50%" stop-color="#A78BFA">
+        <animate attributeName="stop-color" values="#A78BFA;#C4B5FD;#8B5CF6;#A78BFA" dur="10s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#34D399">
-        <animate attributeName="stop-color" values="#34D399;#0D9488;#10B981;#34D399" dur="10s" repeatCount="indefinite" />
+      <stop offset="100%" stop-color="#C4B5FD">
+        <animate attributeName="stop-color" values="#C4B5FD;#8B5CF6;#A78BFA;#C4B5FD" dur="10s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
 
     <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0D9488" />
-      <stop offset="50%" stop-color="#10B981" />
-      <stop offset="100%" stop-color="#34D399" />
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="50%" stop-color="#A78BFA" />
+      <stop offset="100%" stop-color="#C4B5FD" />
     </linearGradient>
     
     <linearGradient id="cursorGradient" x1="0" y1="0" x2="0" y2="100%">
-      <stop offset="0%" stop-color="#0D9488" />
-      <stop offset="100%" stop-color="#10B981" />
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#A78BFA" />
     </linearGradient>
 
     <clipPath id="neofetchClip">
@@ -148,22 +148,22 @@
     </clipPath>
   </defs>
 
-  <rect width="1180" height="610" rx="24" fill="#F8FAFC" />
+  <rect width="1180" height="610" rx="24" fill="#F5F3FF" />
 
-  <circle cx="200" cy="150" r="250" fill="url(#glowTeal)" opacity="0.6">
+  <circle cx="200" cy="150" r="250" fill="url(#glowPurple)" opacity="0.6">
     <animate attributeName="cx" values="200; 300; 150; 200" dur="15s" repeatCount="indefinite" />
     <animate attributeName="cy" values="150; 250; 200; 150" dur="15s" repeatCount="indefinite" />
   </circle>
-  <circle cx="900" cy="450" r="300" fill="url(#glowEmerald)" opacity="0.5">
+  <circle cx="900" cy="450" r="300" fill="url(#glowLightPurple)" opacity="0.5">
     <animate attributeName="cx" values="900; 800; 950; 900" dur="18s" repeatCount="indefinite" />
     <animate attributeName="cy" values="450; 350; 500; 450" dur="18s" repeatCount="indefinite" />
   </circle>
-  <circle cx="590" cy="305" r="200" fill="url(#glowMint)" opacity="0.4">
+  <circle cx="590" cy="305" r="200" fill="url(#glowLighterPurple)" opacity="0.4">
     <animate attributeName="cx" values="590; 650; 530; 590" dur="12s" repeatCount="indefinite" />
     <animate attributeName="cy" values="305; 250; 350; 305" dur="12s" repeatCount="indefinite" />
   </circle>
 
-  <g fill="#0D9488" opacity="0.6">
+  <g fill="#8B5CF6" opacity="0.6">
     <circle cx="100" cy="200" r="1.5">
       <animate attributeName="cy" values="200; 150; 200" dur="6s" repeatCount="indefinite" />
       <animate attributeName="opacity" values="0.2; 0.8; 0.2" dur="6s" repeatCount="indefinite" />
@@ -172,7 +172,7 @@
       <animate attributeName="cy" values="120; 80; 120" dur="5s" repeatCount="indefinite" />
       <animate attributeName="opacity" values="0.1; 0.7; 0.1" dur="5s" repeatCount="indefinite" />
     </circle>
-    <circle cx="450" cy="500" r="2" fill="#10B981">
+    <circle cx="450" cy="500" r="2" fill="#A78BFA">
       <animate attributeName="cy" values="500; 450; 500" dur="7s" repeatCount="indefinite" />
       <animate attributeName="opacity" values="0.3; 0.9; 0.3" dur="7s" repeatCount="indefinite" />
     </circle>
@@ -180,7 +180,7 @@
       <animate attributeName="cy" values="100; 160; 100" dur="8s" repeatCount="indefinite" />
       <animate attributeName="opacity" values="0.2; 0.8; 0.2" dur="8s" repeatCount="indefinite" />
     </circle>
-    <circle cx="1100" cy="300" r="2" fill="#34D399">
+    <circle cx="1100" cy="300" r="2" fill="#C4B5FD">
       <animate attributeName="cy" values="300; 250; 300" dur="6s" repeatCount="indefinite" />
       <animate attributeName="opacity" values="0.1; 0.7; 0.1" dur="6s" repeatCount="indefinite" />
     </circle>
@@ -196,25 +196,25 @@
   <g>
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" />
     
-    <rect x="40" y="40" width="360" height="530" rx="16" fill="#FFFFFF" fill-opacity="0.9" stroke="url(#borderShimmer)" stroke-width="1.5" />
+    <rect x="40" y="40" width="360" height="530" rx="16" fill="#FFFFFF" fill-opacity="0.95" stroke="url(#borderShimmer)" stroke-width="1.5" />
     <rect x="40" y="40" width="360" height="530" rx="16" fill="url(#glassSheen)" pointer-events="none" />
 
     <circle cx="65" cy="58" r="6" fill="#EF4444" />
     <circle cx="85" cy="58" r="6" fill="#F59E0B" />
-    <circle cx="105" cy="58" r="6" fill="#10B981" />
-    <text x="220" y="62" fill="#475569" font-size="12" font-weight="500" text-anchor="middle" class="font-mono">anita@avatar:~</text>
+    <circle cx="105" cy="58" r="6" fill="#A78BFA" />
+    <text x="220" y="62" fill="#6B7280" font-size="12" font-weight="500" text-anchor="middle" class="font-mono">anita@avatar:~</text>
     <line x1="40" y1="75" x2="400" y2="75" stroke="rgba(0, 0, 0, 0.08)" stroke-width="1" />
 
     <rect x="41" y="76" width="358" height="488" fill="url(#scanline)" pointer-events="none" rx="8">
       <animate attributeName="y" values="76; 480; 76" dur="6s" repeatCount="indefinite" />
     </rect>
 
-    <text x="70" y="105" fill="#475569" font-size="13" class="font-mono" xml:space="preserve">anita@avatar:~$ <tspan fill="#0F172A" clip-path="url(#neofetchClip)">neofetch</tspan></text>
+    <text x="70" y="105" fill="#6B7280" font-size="13" class="font-mono" xml:space="preserve">anita@avatar:~$ <tspan fill="#1F2937" clip-path="url(#neofetchClip)">neofetch</tspan></text>
     
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 65,0; 65,0" keyTimes="0; 0.71; 1" dur="0.7s" begin="0.2s" fill="freeze" />
       <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.99;1" dur="0.9s" begin="0.2s" fill="freeze" />
-      <rect x="226" y="92" width="6" height="14" fill="#0D9488" class="cursor-blink" />
+      <rect x="226" y="92" width="6" height="14" fill="#8B5CF6" class="cursor-blink" />
     </g>
 
     <!-- ASCII Art Portrait with scanner reveal effect -->
@@ -343,44 +343,44 @@
   <g>
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" />
     
-    <rect x="440" y="40" width="700" height="530" rx="16" fill="#FFFFFF" fill-opacity="0.9" stroke="url(#borderShimmer)" stroke-width="1.5" />
+    <rect x="440" y="40" width="700" height="530" rx="16" fill="#FFFFFF" fill-opacity="0.95" stroke="url(#borderShimmer)" stroke-width="1.5" />
     <rect x="440" y="40" width="700" height="530" rx="16" fill="url(#glassSheen)" pointer-events="none" />
 
     <circle cx="465" cy="58" r="6" fill="#EF4444" />
     <circle cx="485" cy="58" r="6" fill="#F59E0B" />
-    <circle cx="505" cy="58" r="6" fill="#10B981" />
-    <text x="790" y="62" fill="#475569" font-size="12" font-weight="500" text-anchor="middle" class="font-mono">anita@terminal:~</text>
+    <circle cx="505" cy="58" r="6" fill="#A78BFA" />
+    <text x="790" y="62" fill="#6B7280" font-size="12" font-weight="500" text-anchor="middle" class="font-mono">anita@terminal:~</text>
     <line x1="440" y1="75" x2="1140" y2="75" stroke="rgba(0, 0, 0, 0.08)" stroke-width="1" />
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.5s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.4s" begin="0.5s" fill="freeze" />
-      <text x="490" y="115" fill="#475569" font-size="15" class="font-mono" xml:space="preserve">const greeting = <tspan fill="#0D9488">"Hi 👋"</tspan>;</text>
+      <text x="490" y="115" fill="#6B7280" font-size="15" class="font-mono" xml:space="preserve">const greeting = <tspan fill="#8B5CF6">"Hi 👋"</tspan>;</text>
     </g>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.9s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.4s" begin="0.9s" fill="freeze" />
-      <text x="490" y="155" fill="#0F172A" font-size="32" font-weight="800" class="font-sans" xml:space="preserve">I'm <tspan fill="url(#accentGradient)">Anita Tiara Sani</tspan></text>
+      <text x="490" y="155" fill="#1F2937" font-size="32" font-weight="800" class="font-sans" xml:space="preserve">I'm <tspan fill="url(#accentGradient)">Anita Tiara Sani</tspan></text>
     </g>
 
     <g>
-      <text x="490" y="200" fill="#475569" font-size="18" class="font-mono">$&gt; </text>
+      <text x="490" y="200" fill="#6B7280" font-size="18" class="font-mono">$&gt; </text>
 
       <g class="font-mono" font-size="18" font-weight="bold">
-        <text x="522" y="200" fill="#0D9488" clip-path="url(#clipPhrase1)">Informatika Student
+        <text x="522" y="200" fill="#8B5CF6" clip-path="url(#clipPhrase1)">Informatika Student
           <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.1867;0.2;1" dur="15s" repeatCount="indefinite" />
         </text>
-        <text x="522" y="200" fill="#10B981" clip-path="url(#clipPhrase2)" opacity="0">Web Developer
+        <text x="522" y="200" fill="#A78BFA" clip-path="url(#clipPhrase2)" opacity="0">Web Developer
           <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2;0.2001;0.3867;0.4;1" dur="15s" repeatCount="indefinite" />
         </text>
-        <text x="522" y="200" fill="#34D399" clip-path="url(#clipPhrase3)" opacity="0">Open Source Enthusiast
+        <text x="522" y="200" fill="#C4B5FD" clip-path="url(#clipPhrase3)" opacity="0">Open Source Enthusiast
           <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4;0.4001;0.5867;0.6;1" dur="15s" repeatCount="indefinite" />
         </text>
-        <text x="522" y="200" fill="#0D9488" clip-path="url(#clipPhrase4)" opacity="0">Tech Learner
+        <text x="522" y="200" fill="#8B5CF6" clip-path="url(#clipPhrase4)" opacity="0">Tech Learner
           <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6;0.6001;0.7867;0.8;1" dur="15s" repeatCount="indefinite" />
         </text>
-        <text x="522" y="200" fill="#10B981" clip-path="url(#clipPhrase5)" opacity="0">Future Engineer
+        <text x="522" y="200" fill="#A78BFA" clip-path="url(#clipPhrase5)" opacity="0">Future Engineer
           <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8;0.8001;0.9867;0.99;1" dur="15s" repeatCount="indefinite" />
         </text>
       </g>
@@ -400,131 +400,131 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.5s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,8" to="0,0" dur="0.4s" begin="2.5s" fill="freeze" />
       <svg viewBox="0 0 24 24" x="490" y="247" width="16" height="16">
-        <path stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+        <path stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
       </svg>
-      <text x="518" y="260" fill="#475569" font-size="14" class="font-sans">Location: <tspan fill="#0F172A" font-weight="500">Indonesia</tspan></text>
+      <text x="518" y="260" fill="#6B7280" font-size="14" class="font-sans">Location: <tspan fill="#1F2937" font-weight="500">Indonesia</tspan></text>
     </g>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.65s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,8" to="0,0" dur="0.4s" begin="2.65s" fill="freeze" />
       <svg viewBox="0 0 24 24" x="490" y="277" width="16" height="16">
-        <path stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M22 10v6M2 10l10-5 10 5-10 5z M6 12v5c0 2 3 3 6 3s6-1 6-3v-5"/>
+        <path stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M22 10v6M2 10l10-5 10 5-10 5z M6 12v5c0 2 3 3 6 3s6-1 6-3v-5"/>
       </svg>
-      <text x="518" y="290" fill="#475569" font-size="14" class="font-sans">Education: <tspan fill="#0F172A" font-weight="500">S1 Informatika</tspan></text>
+      <text x="518" y="290" fill="#6B7280" font-size="14" class="font-sans">Education: <tspan fill="#1F2937" font-weight="500">S1 Informatika</tspan></text>
     </g>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.8s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,8" to="0,0" dur="0.4s" begin="2.8s" fill="freeze" />
       <svg viewBox="0 0 24 24" x="490" y="307" width="16" height="16">
-        <path stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M4 17l6-5-6-5M12 19h8"/>
+        <path stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M4 17l6-5-6-5M12 19h8"/>
       </svg>
-      <text x="518" y="320" fill="#475569" font-size="14" class="font-sans">Focus: <tspan fill="#0F172A" font-weight="500">Web Development &amp; Programming</tspan></text>
+      <text x="518" y="320" fill="#6B7280" font-size="14" class="font-sans">Focus: <tspan fill="#1F2937" font-weight="500">Web Development &amp; Programming</tspan></text>
     </g>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.95s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,8" to="0,0" dur="0.4s" begin="2.95s" fill="freeze" />
       <svg viewBox="0 0 24 24" x="490" y="337" width="16" height="16">
-        <path stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        <path stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
       </svg>
-      <text x="518" y="350" fill="#475569" font-size="14" class="font-sans">GitHub: <tspan fill="#0D9488" font-weight="500" style="text-decoration: underline; cursor: pointer;">github.com/Tiarasani-anita</tspan></text>
+      <text x="518" y="350" fill="#6B7280" font-size="14" class="font-sans">GitHub: <tspan fill="#8B5CF6" font-weight="500" style="text-decoration: underline; cursor: pointer;">github.com/Tiarasani-anita</tspan></text>
     </g>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.1s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,8" to="0,0" dur="0.4s" begin="3.1s" fill="freeze" />
       <svg viewBox="0 0 24 24" x="490" y="367" width="16" height="16">
-        <path stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 4l8 5 8-5"/>
+        <path stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 4l8 5 8-5"/>
       </svg>
-      <text x="518" y="380" fill="#475569" font-size="14" class="font-sans">Email: <tspan fill="#34D399" font-weight="500">anita.tiara@email.com</tspan></text>
+      <text x="518" y="380" fill="#6B7280" font-size="14" class="font-sans">Email: <tspan fill="#C4B5FD" font-weight="500">anita.tiara@email.com</tspan></text>
     </g>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.25s" fill="freeze" />
-      <text x="490" y="425" fill="#0F172A" font-size="14" font-weight="700" class="font-sans">Skills &amp; Technologies</text>
+      <text x="490" y="425" fill="#1F2937" font-size="14" font-weight="700" class="font-sans">Skills &amp; Technologies</text>
     </g>
 
-    <g class="skill-pill" style="--hover-glow: rgba(13, 148, 136, 0.4);" opacity="0">
+    <g class="skill-pill" style="--hover-glow: rgba(139, 92, 246, 0.4);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.3s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.3s" fill="freeze" />
-      <rect x="490" y="442" width="75" height="28" rx="8" fill="rgba(13, 148, 136, 0.05)" stroke="rgba(13, 148, 136, 0.3)" stroke-width="1" />
-      <text x="527.5" y="460" fill="#0D9488" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">HTML</text>
+      <rect x="490" y="442" width="75" height="28" rx="8" fill="rgba(139, 92, 246, 0.08)" stroke="rgba(139, 92, 246, 0.3)" stroke-width="1" />
+      <text x="527.5" y="460" fill="#8B5CF6" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">HTML</text>
     </g>
-    <g class="skill-pill" style="--hover-glow: rgba(16, 185, 129, 0.4);" opacity="0">
+    <g class="skill-pill" style="--hover-glow: rgba(167, 139, 250, 0.4);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.38s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.38s" fill="freeze" />
-      <rect x="577" y="442" width="75" height="28" rx="8" fill="rgba(16, 185, 129, 0.05)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1" />
-      <text x="619.5" y="460" fill="#10B981" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">CSS</text>
+      <rect x="577" y="442" width="75" height="28" rx="8" fill="rgba(167, 139, 250, 0.08)" stroke="rgba(167, 139, 250, 0.3)" stroke-width="1" />
+      <text x="619.5" y="460" fill="#A78BFA" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">CSS</text>
     </g>
     <g class="skill-pill" style="--hover-glow: rgba(247, 223, 30, 0.4);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.46s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.46s" fill="freeze" />
-      <rect x="664" y="442" width="85" height="28" rx="8" fill="rgba(247, 223, 30, 0.05)" stroke="rgba(247, 223, 30, 0.3)" stroke-width="1" />
+      <rect x="664" y="442" width="85" height="28" rx="8" fill="rgba(247, 223, 30, 0.08)" stroke="rgba(247, 223, 30, 0.3)" stroke-width="1" />
       <text x="706.5" y="460" fill="#F7DF1E" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">JavaScript</text>
     </g>
-    <g class="skill-pill" style="--hover-glow: rgba(13, 148, 136, 0.4);" opacity="0">
+    <g class="skill-pill" style="--hover-glow: rgba(139, 92, 246, 0.4);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.54s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.54s" fill="freeze" />
-      <rect x="761" y="442" width="85" height="28" rx="8" fill="rgba(13, 148, 136, 0.05)" stroke="rgba(13, 148, 136, 0.3)" stroke-width="1" />
-      <text x="803.5" y="460" fill="#0D9488" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Python</text>
+      <rect x="761" y="442" width="85" height="28" rx="8" fill="rgba(139, 92, 246, 0.08)" stroke="rgba(139, 92, 246, 0.3)" stroke-width="1" />
+      <text x="803.5" y="460" fill="#8B5CF6" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Python</text>
     </g>
-    <g class="skill-pill" style="--hover-glow: rgba(16, 185, 129, 0.4);" opacity="0">
+    <g class="skill-pill" style="--hover-glow: rgba(167, 139, 250, 0.4);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.62s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.62s" fill="freeze" />
-      <rect x="858" y="442" width="85" height="28" rx="8" fill="rgba(16, 185, 129, 0.05)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1" />
-      <text x="900.5" y="460" fill="#10B981" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">React</text>
+      <rect x="858" y="442" width="85" height="28" rx="8" fill="rgba(167, 139, 250, 0.08)" stroke="rgba(167, 139, 250, 0.3)" stroke-width="1" />
+      <text x="900.5" y="460" fill="#A78BFA" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">React</text>
     </g>
-    <g class="skill-pill" style="--hover-glow: rgba(71, 85, 105, 0.4);" opacity="0">
+    <g class="skill-pill" style="--hover-glow: rgba(107, 114, 128, 0.4);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.7s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.7s" fill="freeze" />
-      <rect x="955" y="442" width="85" height="28" rx="8" fill="rgba(71, 85, 105, 0.05)" stroke="rgba(71, 85, 105, 0.3)" stroke-width="1" />
-      <text x="997.5" y="460" fill="#475569" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Git</text>
+      <rect x="955" y="442" width="85" height="28" rx="8" fill="rgba(107, 114, 128, 0.08)" stroke="rgba(107, 114, 128, 0.3)" stroke-width="1" />
+      <text x="997.5" y="460" fill="#6B7280" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Git</text>
     </g>
 
-    <g class="skill-pill" style="--hover-glow: rgba(16, 185, 129, 0.4);" opacity="0">
+    <g class="skill-pill" style="--hover-glow: rgba(167, 139, 250, 0.4);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.78s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.78s" fill="freeze" />
-      <rect x="490" y="482" width="100" height="28" rx="8" fill="rgba(16, 185, 129, 0.05)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1" />
-      <text x="540" y="499" fill="#10B981" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Tailwind</text>
+      <rect x="490" y="482" width="100" height="28" rx="8" fill="rgba(167, 139, 250, 0.08)" stroke="rgba(167, 139, 250, 0.3)" stroke-width="1" />
+      <text x="540" y="499" fill="#A78BFA" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Tailwind</text>
     </g>
-    <g class="skill-pill" style="--hover-glow: rgba(13, 148, 136, 0.4);" opacity="0">
+    <g class="skill-pill" style="--hover-glow: rgba(139, 92, 246, 0.4);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.86s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.86s" fill="freeze" />
-      <rect x="602" y="482" width="95" height="28" rx="8" fill="rgba(13, 148, 136, 0.05)" stroke="rgba(13, 148, 136, 0.3)" stroke-width="1" />
-      <text x="649.5" y="499" fill="#0D9488" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Node.js</text>
+      <rect x="602" y="482" width="95" height="28" rx="8" fill="rgba(139, 92, 246, 0.08)" stroke="rgba(139, 92, 246, 0.3)" stroke-width="1" />
+      <text x="649.5" y="499" fill="#8B5CF6" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Node.js</text>
     </g>
-    <g class="skill-pill" style="--hover-glow: rgba(16, 185, 129, 0.4);" opacity="0">
+    <g class="skill-pill" style="--hover-glow: rgba(167, 139, 250, 0.4);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.94s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.94s" fill="freeze" />
-      <rect x="709" y="482" width="80" height="28" rx="8" fill="rgba(16, 185, 129, 0.05)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1" />
-      <text x="749" y="499" fill="#10B981" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">SQL</text>
+      <rect x="709" y="482" width="80" height="28" rx="8" fill="rgba(167, 139, 250, 0.08)" stroke="rgba(167, 139, 250, 0.3)" stroke-width="1" />
+      <text x="749" y="499" fill="#A78BFA" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">SQL</text>
     </g>
-    <g class="skill-pill" style="--hover-glow: rgba(71, 85, 105, 0.4);" opacity="0">
+    <g class="skill-pill" style="--hover-glow: rgba(107, 114, 128, 0.4);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.02s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.02s" fill="freeze" />
-      <rect x="801" y="482" width="90" height="28" rx="8" fill="rgba(71, 85, 105, 0.05)" stroke="rgba(71, 85, 105, 0.3)" stroke-width="1" />
-      <text x="846" y="499" fill="#475569" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Next.js</text>
+      <rect x="801" y="482" width="90" height="28" rx="8" fill="rgba(107, 114, 128, 0.08)" stroke="rgba(107, 114, 128, 0.3)" stroke-width="1" />
+      <text x="846" y="499" fill="#6B7280" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Next.js</text>
     </g>
-    <g class="skill-pill" style="--hover-glow: rgba(16, 185, 129, 0.4);" opacity="0">
+    <g class="skill-pill" style="--hover-glow: rgba(196, 181, 253, 0.4);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.1s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.1s" fill="freeze" />
-      <rect x="903" y="482" width="90" height="28" rx="8" fill="rgba(16, 185, 129, 0.05)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1" />
-      <text x="948" y="499" fill="#10B981" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">TypeScript</text>
+      <rect x="903" y="482" width="90" height="28" rx="8" fill="rgba(196, 181, 253, 0.08)" stroke="rgba(196, 181, 253, 0.3)" stroke-width="1" />
+      <text x="948" y="499" fill="#C4B5FD" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">TypeScript</text>
     </g>
-    <g class="skill-pill" style="--hover-glow: rgba(13, 148, 136, 0.4);" opacity="0">
+    <g class="skill-pill" style="--hover-glow: rgba(139, 92, 246, 0.4);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.18s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.18s" fill="freeze" />
-      <rect x="1005" y="482" width="70" height="28" rx="8" fill="rgba(13, 148, 136, 0.05)" stroke="rgba(13, 148, 136, 0.3)" stroke-width="1" />
-      <text x="1040" y="499" fill="#0D9488" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Docker</text>
+      <rect x="1005" y="482" width="70" height="28" rx="8" fill="rgba(139, 92, 246, 0.08)" stroke="rgba(139, 92, 246, 0.3)" stroke-width="1" />
+      <text x="1040" y="499" fill="#8B5CF6" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Docker</text>
     </g>
 
     <g class="social-icon" opacity="0">
       <animate attributeName="opacity" from="0" to="0.7" dur="0.4s" begin="4.3s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.4s" begin="4.3s" fill="freeze" />
       <svg viewBox="0 0 24 24" x="490" y="530" width="20" height="20">
-        <path stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+        <path stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
       </svg>
     </g>
 
@@ -532,7 +532,7 @@
       <animate attributeName="opacity" from="0" to="0.7" dur="0.4s" begin="4.4s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.4s" begin="4.4s" fill="freeze" />
       <svg viewBox="0 0 24 24" x="530" y="530" width="20" height="20">
-        <path stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+        <path stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
       </svg>
     </g>
 
@@ -540,7 +540,7 @@
       <animate attributeName="opacity" from="0" to="0.7" dur="0.4s" begin="4.5s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.4s" begin="4.5s" fill="freeze" />
       <svg viewBox="0 0 24 24" x="570" y="530" width="20" height="20">
-        <path stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+        <path stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
       </svg>
     </g>
 
@@ -548,7 +548,7 @@
       <animate attributeName="opacity" from="0" to="0.7" dur="0.4s" begin="4.6s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.4s" begin="4.6s" fill="freeze" />
       <svg viewBox="0 0 24 24" x="610" y="530" width="20" height="20">
-        <path stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        <path stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
       </svg>
     </g>
   </g>
