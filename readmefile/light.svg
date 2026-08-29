@@ -429,7 +429,7 @@
     <!-- MODERN 3D NEON SKILLS SECTION -->
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="3.2s" fill="freeze" />
-      <text x="490" y="420" fill="#1F2937" font-size="14" font-weight="700" class="font-sans">Technical Skills</text>
+      <text x="490" y="420" fill="#8B5CF6" font-size="14" font-weight="700" class="font-sans">Technical Skills</text>
     </g>
 
     <!-- 3D Neon Skill Cards Row 1 -->
