@@ -22,7 +22,7 @@ I work with **React, Next.js, TailwindCSS, and Firebase**, combining creative fr
 - 🎓 **Education:** S1 Informatics Engineering (2024 - Present).
 - 💬 **Ask me about:** Frontend development, Software engineer, or Full-stack developer.
 - ✉️ **Contact:** [anitatiara25@gmail.com](mailto:anitatiara25@gmail.com)
-- 🌐 **Portfolio:** [tiarasani-anita.github.io/portfolio-anita](https://tiarasani-anita.github.io/portfolio-anita/)
+- 🌐 **Portfolio:** [tiarasani-anita.github.com/portfolio-kerja-anita](https://portfolio-kerja-anita-jsk2u559effh5cizfdviip.streamlit.app/)
 
 ---
 
